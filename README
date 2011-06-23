@@ -1,0 +1,3 @@
+This is an android based calculator that calculates the billing amount from the total amount of the electricity bill.
+This simply divides the bill into fixed and variable costs and separates the costs accordingly into the users.
+The first iterations of this application are focussed on providing different features to its users, but in later versions, I would try to convert this application from a highly customized one to a generic one that can be used by everyone that require a subdivision of their bills.

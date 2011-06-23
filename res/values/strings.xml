@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Power Billing Calculator by Sumit Bisht</string>
+    <string name="usr1">sumit</string>
+    <string name="usr2">cbj</string>
+    <string name="usr3">scb</string>
+    <string name="app_name">Power Calculator</string>
+</resources>
