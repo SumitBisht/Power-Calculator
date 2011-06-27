@@ -80,7 +80,7 @@ public class Calculator extends Activity {
 	private void perPersonBill(){
 		try {
 			double totalBill = Double.parseDouble(billCost.getText().toString());
-			double rent = Double.parseDouble(meterRent.getText().toString())/3;
+			double rent = Double.parseDouble(meterRent.getText().toString());
 			double unitsCnt = Double.parseDouble(unitCount.getText().toString());
 			double perUnitCost = (totalBill - rent) / unitsCnt;
 			
@@ -89,7 +89,7 @@ public class Calculator extends Activity {
 			
 			double remainingReading = unitsCnt-usr1Reading-usr2Reading;
 			user3Reading.setText(""+(int)remainingReading);
-			
+			rent /=3;
 			usr1Reading = usr1Reading * perUnitCost + rent;
 			usr2Reading = usr2Reading * perUnitCost + rent;
 			remainingReading = remainingReading * perUnitCost + rent;

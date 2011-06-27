@@ -2,57 +2,57 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_height="fill_parent" android:layout_width="fill_parent">
 
-	<TableRow android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:text="@string/hello" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:layout_weight="1"  >
+		<TextView android:text="@string/hello" android:layout_weight="1"  />
 	</TableRow>
-	<TableRow android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:text="Total Bill Amount:" android:id="@+id/textView1" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
-			<EditText android:text="" android:id="@+id/editText" android:inputType="number" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:layout_weight="1"  >
+		<TextView android:text="Total Bill Amount:" android:id="@+id/textView1" android:layout_weight="1"  />
+			<EditText android:text="" android:id="@+id/editText" android:inputType="number" android:layout_weight="1"  />
 		</TableRow>
-		<TableRow android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:text="Metered units:" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
-		<EditText android:text="" android:id="@+id/editText1" android:inputType="number" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+		<TableRow android:layout_weight="1"  >
+		<TextView android:text="Metered units:" android:layout_weight="1"  />
+		<EditText android:text="" android:id="@+id/editText1" android:inputType="number" android:layout_weight="1"  />
 	</TableRow>
-	<TableRow android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:text="Fixed Charges:" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
-		<EditText android:text="" android:id="@+id/editText2" android:inputType="number" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:layout_weight="1"  >
+		<TextView android:text="Fixed Charges:" android:layout_weight="1"  />
+		<EditText android:text="325" android:id="@+id/editText2" android:inputType="number" android:layout_weight="1"  />
 	</TableRow>
-	<TableRow android:padding="1px" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<Button android:text="PerUnitCost" android:id="@+id/costperunitbtn" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:padding="1px" >
+		<Button android:text="PerUnitCost" android:id="@+id/costperunitbtn" android:layout_weight="1"  />
 	</TableRow>
-	<TableRow android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:text="Per Unit Cost:" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:layout_weight="1"  >
+		<TextView android:text="Per Unit Cost:" android:layout_weight="1"  />
 		<TextView android:id="@+id/unitcost"
-		android:text="0" android:layout_weight="1" android:textColor="#FF0000" android:layout_height="match_parent" android:layout_width="match_parent"/>
+		android:text="0" android:layout_weight="1" android:textColor="#FF0000"  />
 	</TableRow>
 	
-	<TableRow android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:id="@+id/ReadingHead" android:text="Units Used" android:layout_span="3" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:layout_weight="1"  >
+		<TextView android:id="@+id/ReadingHead" android:text="Units Used" android:layout_span="3"  />
 	</TableRow>
 	
-	<TableRow android:paddingTop="20px" android:baselineAligned="true" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:id="@+id/User1" android:text="@string/usr1" android:textSize="20px" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
-		<TextView android:id="@+id/User2" android:text="@string/usr2" android:textSize="20px" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
-		<TextView android:id="@+id/User3" android:text="@string/usr3" android:textSize="20px" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:paddingTop="20px" android:baselineAligned="true" android:layout_weight="1"  >
+		<TextView android:id="@+id/User1" android:text="@string/usr1" android:textSize="20px" android:layout_weight="1"  />
+		<TextView android:id="@+id/User2" android:text="@string/usr2" android:textSize="20px" android:layout_weight="1"  />
+		<TextView android:id="@+id/User3" android:text="@string/usr3" android:textSize="20px" android:layout_weight="1"  />
 	</TableRow>
-	<TableRow android:layout_height="match_parent" android:layout_width="match_parent"> 
-		<EditText android:id="@+id/usr1Reading" android:inputType="number" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
-		<EditText android:id="@+id/usr2Reading" android:inputType="number" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
-		<EditText android:id="@+id/usr3Reading" android:inputType="number" android:layout_weight="1" android:editable="false" android:layout_height="match_parent" android:layout_width="match_parent"/>
-	</TableRow>
-	
-	<TableRow android:paddingTop="1px"  android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<Button android:text="Find Power Bill" android:padding="1px" android:id="@+id/mainBillButton" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow  > 
+		<EditText android:id="@+id/usr1Reading" android:inputType="number" android:layout_weight="1" />
+		<EditText android:id="@+id/usr2Reading" android:inputType="number" android:layout_weight="1" />
+		<EditText android:id="@+id/usr3Reading" android:inputType="number" android:layout_weight="1" android:editable="false"  />
 	</TableRow>
 	
-	<TableRow android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:id="@+id/BillHeader" android:text="Amount of Bill" android:fadingEdge="horizontal" android:paddingTop="30px" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:paddingTop="1px"  android:layout_weight="1"  >
+		<Button android:text="Find Power Bill" android:padding="1px" android:id="@+id/mainBillButton" android:layout_weight="1"  />
 	</TableRow>
 	
-	<TableRow android:paddingTop="20px" android:baselineAligned="true" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent">
-		<TextView android:id="@+id/Usr1Bill" android:text="Rs." android:layout_weight="1" android:textColor="#00FFAA" android:layout_height="match_parent" android:layout_width="match_parent"/>
-		<TextView android:id="@+id/Usr2Bill" android:text="Rs." android:layout_weight="1" android:textColor="#00FFAA" android:layout_height="match_parent" android:layout_width="match_parent"/>
-		<TextView android:id="@+id/Usr3Bill" android:text="Rs." android:layout_weight="1" android:textColor="#00FFAA" android:layout_height="match_parent" android:layout_width="match_parent"/>
+	<TableRow android:layout_weight="1"  >
+		<TextView android:id="@+id/BillHeader" android:text="Amount of Bill" android:fadingEdge="horizontal" android:paddingTop="30px" android:layout_weight="1"  />
+	</TableRow>
+	
+	<TableRow android:paddingTop="20px" android:baselineAligned="true" android:layout_weight="1"  >
+		<TextView android:id="@+id/Usr1Bill" android:text="Rs." android:layout_weight="1" android:textColor="#00FFAA"  />
+		<TextView android:id="@+id/Usr2Bill" android:text="Rs." android:layout_weight="1" android:textColor="#00FFAA"  />
+		<TextView android:id="@+id/Usr3Bill" android:text="Rs." android:layout_weight="1" android:textColor="#00FFAA"  />
 	</TableRow>
 	
 </TableLayout>
